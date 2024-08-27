@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una aplicación web desarrollada en PHP utilizando el modelo MVC (Modelo-Vista-Controlador) para la gestión de libros y autores. La aplicación permite a los usuarios gestionar (crear, leer, actualizar y eliminar) libros y autores a través de una interfaz web intuitiva y moderna. La aplicación incluye funcionalidades de peticiones AJAX mediante Axios, diseño de interfaz con Bootstrap, modales para la gestión de formularios, y un menú de navegación dinámico.
+Este proyecto es una aplicación web desarrollada en PHP utilizando el modelo MVC (Modelo-Vista-Controlador) para la gestión de libros y autores. La aplicación permite a los usuarios gestionar (crear, leer, actualizar y eliminar) libros y autores a través de una interfaz web intuitiva y moderna. La aplicación incluye funcionalidades de peticiones mediante Axios, diseño de interfaz con Bootstrap, modales para la gestión de formularios, y un menú de navegación dinámico.
 
 ## Tecnologías Utilizadas
 
