@@ -1,43 +1,46 @@
-# Proyecto de Virtualización de Redes
+# Proyecto: Gestión de Libros y Autores
 
-Este repositorio contiene el proyecto de virtualización de redes desarrollado por nuestro grupo como parte del curso. A continuación, se proporciona una descripción del proyecto, las tecnologías utilizadas y las instrucciones para ejecutar la aplicación.
+## Descripción
 
-## Descripción del Proyecto
-
-El objetivo de este proyecto es implementar una solución de virtualización de redes que permita simular diferentes escenarios de redes para pruebas y aprendizaje. La virtualización de redes es una tecnología clave en el campo de las redes y telecomunicaciones, ya que permite crear y gestionar múltiples redes virtuales sobre una infraestructura física compartida.
+Este proyecto es una aplicación web desarrollada en PHP utilizando el modelo MVC (Modelo-Vista-Controlador) para la gestión de libros y autores. La aplicación permite a los usuarios gestionar (crear, leer, actualizar y eliminar) libros y autores a través de una interfaz web intuitiva y moderna. La aplicación incluye funcionalidades de peticiones AJAX mediante Axios, diseño de interfaz con Bootstrap, modales para la gestión de formularios, y un menú de navegación dinámico.
 
 ## Tecnologías Utilizadas
 
-- **XAMPP:** Utilizado para crear un entorno de servidor local con Apache, MySQL, y PHP.
-- **Visual Studio Code:** Utilizado como editor de código para desarrollar scripts y gestionar archivos de configuración.
-- **PHP:** Utilizado para desarrollar la lógica de negocio del proyecto y manejar la interacción con la base de datos.
-- **MySQL:** Utilizado como el sistema de gestión de bases de datos relacional para almacenar y gestionar datos de la aplicación.
+- **PHP**: Lenguaje de programación para el desarrollo del backend.
+- **Modelo MVC**: Estructura para organizar el código en Modelos, Vistas y Controladores.
+- **Bootstrap**: Framework CSS para el diseño de la interfaz.
+- **Axios**: Librería para realizar peticiones AJAX.
+- **MySQL**: Sistema de gestión de bases de datos para almacenar la información.
+- **.htaccess**: Configuración para gestionar URLs amigables y redirigir solicitudes.
+- **XAMPP/WAMP/LAMP**: Servidor web para ejecutar la aplicación localmente.
 
 ## Instrucciones para Ejecutar la Aplicación
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
-   cd nombre_del_repositorio
-## Instalar XAMPP:
-Si no tienes XAMPP instalado, descárgalo e instálalo desde [aquí](https://www.apachefriends.org/index.html).
+1. **Preparación del Entorno**
 
-1. **Configurar la base de datos:**
-   * Inicia XAMPP y abre phpMyAdmin.
-   * Crea una nueva base de datos y ejecuta el script SQL proporcionado en el directorio `sql/` para configurar las tablas necesarias.
+   - Instala [XAMPP](https://www.apachefriends.org/index.html), [WAMP](https://www.wampserver.com/en/), o [LAMP](https://www.linux.com/topic/desktop/what-lamp/), según tu sistema operativo.
+   - Asegúrate de tener un editor de texto con resaltado sintáctico como [VS Code](https://code.visualstudio.com/) o [Sublime Text](https://www.sublimetext.com/).
 
-2. **Configurar el entorno de desarrollo:**
-   * Abre el proyecto en Visual Studio Code.
-   * Asegúrate de que XAMPP esté corriendo y que los servicios de Apache y MySQL estén activados.
-   * Configura los archivos de conexión a la base de datos si es necesario.
+2. **Configuración del Servidor Web**
 
-3. **Ejecutar la aplicación:**
-   * Coloca los archivos del proyecto en el directorio `htdocs` de XAMPP.
-   * Accede a la aplicación desde el navegador usando `http://localhost/nombre_del_proyecto`.
+   - Descarga o clona este repositorio a tu máquina local.
+   - Copia el contenido del proyecto a la carpeta `htdocs` (XAMPP) o `www` (WAMP) en el directorio de instalación de tu servidor web.
 
-4. **Verificación:**
-   * Navega por la aplicación y realiza pruebas para asegurarte de que todas las funcionalidades están operativas.
-   * Puedes verificar la conexión con la base de datos y la correcta ejecución de los scripts PHP.
+3. **Configuración de la Base de Datos**
+
+   - Crea una base de datos llamada `proyecto_final` en tu servidor MySQL.
+   - Importa el archivo SQL con la estructura de la base de datos y datos de prueba, si está disponible.
+
+4. **Ejecutar la Aplicación**
+
+   - Abre tu navegador y navega a `http://localhost/proyecto_final/` para ver la página de inicio de la aplicación.
+   - Utiliza las opciones del menú de navegación para gestionar libros y autores.
+
+## Funcionalidades
+
+- **Página de Inicio**: Muestra el título del proyecto y los nombres de los integrantes del grupo.
+- **Gestión de Libros**: Permite ver una lista de libros, y agregar, editar o eliminar registros de libros.
+- **Gestión de Autores**: Permite ver una lista de autores, y agregar, editar o eliminar registros de autores.
 
 ## Autores:
 Este proyecto fue desarrollado por:
